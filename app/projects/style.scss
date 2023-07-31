@@ -1,0 +1,23 @@
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+  &__list,
+  &__list--item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  &__list--item{
+    &__buttons{
+      display: flex;
+      gap: 12px;
+      justify-content: flex-end;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  &--item {
+    &__title {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: lowercase;
+    }
+    &__description {
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      text-transform: lowercase;
+      color: #777777;
+    }
+    &__date {
+      display: flex;
+      width: 100%;
+      gap: 10px;
+      font-size: 13px;
+      color: #777777;
+      letter-spacing: 0.8px;
+    }
+    
+  }
+}

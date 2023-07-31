@@ -1,0 +1,15 @@
+.header{
+    width: 100%;
+    justify-content: center;
+    &-list{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        &__item > a{
+            font-size: 15px;
+            font-weight: 600;
+            color: #808080;
+            text-decoration: none;
+        }
+    }
+}

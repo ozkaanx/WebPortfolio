@@ -1,0 +1,21 @@
+.about-wrapper {
+  display: flex;
+  gap: 30px;
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &--title {
+      font-size: 25px;
+      font-weight: 400;
+    }
+    &--subtitle {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    &--title,
+    &--subtitle {
+      margin: 0;
+    }
+  }
+}

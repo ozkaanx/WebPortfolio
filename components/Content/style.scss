@@ -1,0 +1,33 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  &__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    &--title,
+    &--bio {
+      margin: 8px 0;
+      line-height: 1.6;
+    }
+    &--art {
+      padding: 30px 0;
+      font-size: 24px;
+      font-weight: bold;
+      font-style: italic;
+      color: #808080;
+    }
+  }
+  &--buttons {
+    display: flex;
+    gap: 15px;
+    &__link {
+      text-decoration: none;
+      color: rgb(63, 63, 63);
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+}

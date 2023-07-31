@@ -1,0 +1,9 @@
+.socails-wrapper__buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  > a {
+    font-size: 18px;
+  }
+}

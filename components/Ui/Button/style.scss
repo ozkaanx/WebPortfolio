@@ -1,0 +1,41 @@
+.button {
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 8px;
+   width: 100%;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: rgba(228, 228, 228, 0.295);
+  cursor: pointer;
+  > a {
+    color: #808080;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: .6px;
+  }
+  &:hover {
+    background-color: rgba(228, 228, 228, 0.5);
+  }
+  &.outline {
+    background-color: transparent;
+    border: 1px solid #e4e4e4;
+    &:hover {
+      background-color: rgba(228, 228, 228, 0.295);
+    }
+  }
+  &.text {
+    background-color: transparent;
+    border: none;
+    &:hover {
+      background-color: rgba(228, 228, 228, 0.295);
+    }
+  }
+  > svg {
+    width: 16px;
+    height: 16px;
+  }
+}
