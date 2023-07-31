@@ -15,7 +15,7 @@ const About = () => {
       <div className="about-wrapper">
         <div className="about-wrapper__text">
           <h1 className="about-wrapper__text--title">
-            Hi, I'm <span>Ozkan</span>
+            Hi, I&apos;m <span>Ozkan</span>
           </h1>
           <p className="about-wrapper__text--subtitle">
             I am a front-end developer at LC Waikiki. I work to enable users to
