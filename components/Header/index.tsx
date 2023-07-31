@@ -26,9 +26,8 @@ const Header = () => {
     <div className="header">
       <div className="header-list">
         {headerItems?.map((item, index) => (
-          <div className="header-list__item">
+          <div className="header-list__item" key={index}>
             <Link
-              key={index}
               href={item?.path}
               style={{
                 fontWeight: pathname === item?.path ? "600" : "normal",

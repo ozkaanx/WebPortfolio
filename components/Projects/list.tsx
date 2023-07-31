@@ -23,8 +23,12 @@ const ProjectsList = () => {
         <span>Loading...</span>
       ) : (
         Array.isArray(user) &&
-        user?.slice(page - 5, page)?.map((project: any) => {
-          return <ProjectCard data={project} />;
+        user?.slice(page - 5, page)?.map((project: any, index) => {
+          return (
+            <React.Fragment key={index}>
+              <ProjectCard data={project} />
+            </React.Fragment>
+          );
         })
       )}
 
